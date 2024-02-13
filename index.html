@@ -501,29 +501,7 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-            $("#dd-button").on("click", function () {
-                $("#dropdown").toggleClass("hidden");
-            });
-        });
-        $(document).ready(function () {
-            $("#dd-button2").on("click", function () {
-                $("#dropdown").toggleClass("hidden");
-            });
-        });
-
-        function downloadCV() {
-            var link = document.createElement('a');
-            link.style.display = "none";
-            link.href = 'https://drive.google.com/uc?export=download&id=1-PkBl_rck0laLE_Ex12GPfcKjz3BLUOQ';
-            link.download = 'Divijendra_Resume.pdf';
-            link.click();
-        }
-        function hide() {
-            $("#dropdown").toggleClass("hidden");
-
-        }
+    <script src="index.js">
     </script>
 
 
